@@ -13,7 +13,7 @@ export default function Landing() {
             </span>
       </p>
       <GithubForm/>
-      <div className={'flex justify-center items-center gap-10 mt-8'}>
+      <div className={'flex justify-center items-center gap-10 mt-8 mb-4'}>
         <Image src={'/icons/gh.svg'} height={32} width={32} alt={'github'}/>
         <Image src={'/icons/ts.svg'} height={32} width={32} alt={'TS'}/>
         <Image src={'/icons/tailwind.svg'} height={32} width={32} alt={'Tailwind CSS'}/>
